@@ -72,7 +72,7 @@
 						    style="width:100%; max-width:400px;">
 						</div>
 						<div class="blog__slide__content">
-						  <h3><a href="#">{{ post.title }}</a></h3>
+						  <h3><a href="{% url 'post_detail' post.slug %}">{{ post.title }}</a></h3>
 						  <p>{{ post.published_at|date:"F d, Y, g:i a" }}</p>
 						</div>
 					  </div>
