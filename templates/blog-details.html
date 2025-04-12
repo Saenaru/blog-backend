@@ -1,12 +1,15 @@
-{% extends 'base.html' %}
-{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  {% extends 'base.html' %}
+  {% load static %}
 
-{% block title %}
-  {{ post.title }} - Blog Details
-{% endblock %}
+  {% block title %}
+    {{ post.title }} - Blog Details
+  {% endblock %}
 
-{% block content %}
+  {% block content %}
     <!--================ Hero sm Banner start =================-->      
+  <body>
     <section class="mb-30px">
       <div class="container">
         <div class="hero-banner hero-banner--sm">
